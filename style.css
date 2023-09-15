@@ -1,0 +1,82 @@
+body{
+    background-color: white;
+    font-family: 'Monaco'
+}
+
+
+.diamond{
+    width: 80px; 
+    height: 80px; 
+    float: left;
+    border-style: solid;
+    border-width: 10%;
+    border-color: black;
+    background: blue;
+    margin: 57px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+ }
+
+#ocean{
+    margin: 30px auto ;
+    position: absolute;
+    right:440px;
+    max-width:600px;
+   
+}
+
+#result{
+    display:inline-block; 
+    width:20%;
+}
+h1{
+    color:white;
+    line-height: 1.1;
+    font-weight: normal;
+    text-align: center;
+    background: rgb(138, 152, 8);
+    margin:0;
+    text-transform:uppercase;
+    padding: 18px 0;
+}
+
+#upside{
+    background: rgb(202, 226, 65);
+    height:35px;
+    text-align: center;
+    
+}
+
+.selected{
+   color:white;
+    background: rgb(237, 6, 160);  
+}
+button{
+    font-family: 'Brush Script MT';
+    border:solid;
+    border-radius: 30%;
+    border-color: black;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: rgb(51, 1, 1);
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    --webkit-transition: all 0.6s; 
+    -moz-transition: all 0.6s;
+    outline: none;
+}
+button:hover{
+    color:rgb(47, 2, 2);
+    background:rgb(36, 200, 197);
+}
